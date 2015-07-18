@@ -41,42 +41,58 @@ body{margin:0;
 	text-decoration: none;
 }
 
-.Introduce {
-	/*background-color: red; */
+/*.Introduce {
+	/*background-color: red; 
 	margin-left: 300px;
 	margin-top: 1500px;
 	display: inline;
 	position: relative;
 	z-index: 999;
+}*/
+
+.Introductions{
+	width: 100%;
+	height: 100px;
+	/*background: black;*/
+	position: relative;
 }
 
-.Introductions img{
+/*.Introductions img{
 	border-radius:50%;
-}
+	float: left;
+	display: block;
+	padding: auto;
+	/*text-align: left;
+}*/
 #a{
 	width: 100px;
 	height: 100px;
 	border-radius:50%;
+	float: left;
 }
 #b{
 	width: 100px;
 	height: 100px;
 	border-radius:50%;
+	float: left;
 }
 #c{
 	width: 100px;
 	height: 100px;
 	border-radius:50%;
+	float: left;
 }
 #d{
 	width: 100px;
 	height: 100px;
 	border-radius:50%;
+	float: left;
 }
 #e{
 	width: 100px;
 	height: 100px;
 	border-radius:50%;
+	float: left;
 }
 .Introductions li{
 	/*background: red;*/
@@ -88,20 +104,42 @@ body{margin:0;
 	/*margin: 0px 100px 0px 150px;
 	padding: 40px;*/
 	/*5*/
-	margin: 0px 80px 0px 120px;
+	/*margin: 0px 80px 0px 120px;*/
+	margin: 8% 8% 8% 8%;
+}
+
+.introduce{
+	/*background: black;*/
+	/*padding: auto;*/
+	display:block;
+	float: left;
+	position: absolute;
+	margin-top: -8%; 
+	margin-right: 20%;
+	margin-left: 2%;
+	padding-right: 900px;
 }
 
 .icontent{
-	margin-top: -200px;
+	display: block;
+	margin-top: -20%;
+	margin-right: -30%;
+	margin-left: 80px;
+	padding-right: 1px;
+	/*padding-bottom: 10px;*/
 	position: absolute;
-	width: 200px;
-	height: 200px;
+	width: 180px;
+	height: 180px;
+/*	width: 10%;
+	height: 195%;*/
 	border-radius: 50%;
 	/*margin: 50px 50px;*/
 	/*background-color: red;*/
 	z-index: 9999;
 	background: #fff;
+	/*background: green;*/	
 	text-align: center;
+	padding-right: 10px;
 	opacity: 1;
 }
 
